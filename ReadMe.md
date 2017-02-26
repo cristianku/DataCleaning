@@ -14,7 +14,7 @@ A second tidy dataframe 'tidyaveraged' is created which in each line contains th
 
 This dataframe is finally written to a text file 'UCIHAR_averaged.txt' that can be read with read.table("UCIHAR_averaged.txt",header = TRUE). Each line corresponds to averaged information about one activity type performed by one subject.
 
-# Notes:
+### Notes:
 meanFreq() was discarded from the study because it doesn't reflect the mean of the sample
 angles were discarded from the study even when they contained mean vectors because they are further computations of the data, not means themselves
 

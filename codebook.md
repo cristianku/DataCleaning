@@ -1,14 +1,15 @@
 ## Feature Selection and Data Processing
  
-A description of the project can be found at <a href= "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"> .
-Raw data was obtained from the zip file at <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" . 
+A description of the project can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones .
+Raw data was obtained from the zip file at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip . 
 A detailed description of how the data was aquired and individual observations were processed can be found in the features_info.txt file within this zip file.
 
 Raw data was downloaded, combined, filtered and averaged using the run_analysis.R script from the following Github repo as described in the corresponding Readme.md file:
+https://github.com/lars-von-buchholtz/DataCleaning
 
 Only mean and standard deviation of each measurement feature were retained. Data was averaged by subject and activity type and written to a text file that can be read with read.table("UCIHAR_averaged.txt",header = TRUE). Each line corresponds to averaged information about one activity type performed by one subject.
 
-# Notes:
+### Notes:
 meanFreq() was discarded from the study because it doesn't reflect the mean of the sample
 angles were discarded from the study even when they contained mean vectors because they are further computations of the data, not means themselves
 
