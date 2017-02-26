@@ -1,8 +1,8 @@
 ## Introduction
 
 The script run_analysis.R processes data from Smartphone Sensors.
-A description of the project that collected the raw data can be found at <a href= "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"> .
-Raw data was obtained from the zip file at <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" . 
+A description of the project that collected the raw data can be found at  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones .
+Raw data was obtained from the zip file at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip . 
 A detailed description of how the data was aquired and individual observations were processed can be found in the features_info.txt file within this zip file.
 
 ## Code Description
